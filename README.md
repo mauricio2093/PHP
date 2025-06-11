@@ -34,7 +34,7 @@ Bienvenido a esta guía de aprendizaje progresivo de **PHP**. Aprenderás desde 
 - Sitio oficial: [https://www.php.net](https://www.php.net)
 - Documentación en español: [Manual de PHP](https://www.php.net/manual/es/)
 
-### Requisitos
+## Requisitos
 - Tener PHP instalado localmente (usa `php -v` para verificar)
 - Servidor local como [XAMPP](https://www.apachefriends.org/es/index.html), [Laragon](https://laragon.org/) o usar `php -S localhost:8000`
 
@@ -42,8 +42,8 @@ Bienvenido a esta guía de aprendizaje progresivo de **PHP**. Aprenderás desde 
 <?php
 echo "Hola, Mundo!";
 ```
-🧠 PHP es de tipado dinámico, débil y gradual
-### Conceptos clave
+### 🧠 PHP es de tipado dinámico, débil y gradual
+## Conceptos clave
 - Tipado **dinámico**: PHP infiere el tipo en tiempo de ejecución
 - Tipado **débil**: convierte tipos automáticamente (aunque puede ser impredecible)
 - Tipado **gradual** (desde PHP 7): puedes declarar tipos
