@@ -30,9 +30,10 @@ Bienvenido a esta guía de aprendizaje progresivo de **PHP**. Aprenderás desde 
 ## 🟢 1. Introducción a PHP y entorno de desarrollo
 
 **PHP** es un lenguaje de programación del lado del servidor, muy usado en desarrollo web.
-📚 Documentación:
-- Sitio oficial: [https://www.php.net](https://www.php.net)
-- Documentación en español: [Manual de PHP](https://www.php.net/manual/es/)
+
+### 📚 Documentación:
+  - Sitio oficial: [https://www.php.net](https://www.php.net)
+  - Documentación en español: [Manual de PHP](https://www.php.net/manual/es/)
 
 ### Requisitos
 - Tener PHP instalado localmente (usa `php -v` para verificar)
