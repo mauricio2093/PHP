@@ -2,11 +2,11 @@
 
 Bienvenido a esta guía de aprendizaje progresivo de **PHP**. Aprenderás desde los fundamentos hasta patrones avanzados, con ejemplos reales, buenas prácticas modernas y enlaces útiles.
 
-> ✅ Ideal para desarrolladores web, estudiantes autodidactas o freelancers que quieran dominar PHP profesionalmente.
+>  Ideal para desarrolladores web, estudiantes autodidactas o freelancers que quieran dominar PHP profesionalmente.
 
 ---
 
-## ✨ Índice de Contenidos
+##  Índice de Contenidos
 
 1. [Introducción a PHP y entorno de desarrollo](#1-introducción-a-php-y-entorno-de-desarrollo)
 2. [Variables, tipos y operadores](#2-variables-tipos-y-operadores)
@@ -27,11 +27,11 @@ Bienvenido a esta guía de aprendizaje progresivo de **PHP**. Aprenderás desde 
 
 ---
 
-## 🟢 1. Introducción a PHP y entorno de desarrollo
+##  1. Introducción a PHP y entorno de desarrollo
 
 **PHP** es un lenguaje de programación del lado del servidor, muy usado en desarrollo web.
 
-### 📚 Documentación:
+###  Documentación:
   - Sitio oficial: [https://www.php.net](https://www.php.net)
   - Documentación en español: [Manual de PHP](https://www.php.net/manual/es/)
 
@@ -63,7 +63,7 @@ function sumar(int $a, int $b): int {
 
 ---
 
-## 🔡 2. Variables, tipos y operadores
+##  2. Variables, tipos y operadores
 Permiten tomar decisiones o repetir bloques de código.
 
 ```php
@@ -71,21 +71,21 @@ $nombre = "Mauricio";
 $edad = 30;
 $activo = true;
 ```
-### ⚖️ Tipos soportados:
+###  Tipos soportados:
  `string`, `int`, `float`, `bool`, `array`, `object`, `null`
 
-### ➕ Operadores comunes:
+###  Operadores comunes:
   - Aritméticos: `+`, `-`, `*`, `/`, `%`
   - Comparación: `==`, `===`, `!=`, `!==`, `<`, `>`
   - Lógicos: `&&`, `||`, `!`
 
-### 📚 Recursos:
+###  Recursos:
   - [Tipos en PHP (inglés)](https://www.php.net/manual/en/language.types.php) 
   - [Operadores en PHP (español)](https://www.php.net/manual/es/language.operators.php)
 
 ---
 
-## 🔁 3. Estructuras de control
+##  3. Estructuras de control
 
 ```php
 if ($edad >= 18) {
@@ -96,19 +96,19 @@ if ($edad >= 18) {
     echo "Edad inválida.";
 }
 ```
-### 🔄 Bucles:
+###  Bucles:
   - Condicionales: `if`, `else`, `switch`
   - Bucles: `for`, `while`, `foreach`
 
-### 📚 Más información:
+###  Más información:
   - [Estructuras de control en PHP (español)](https://www.php.net/manual/es/control-structures.php)
 
 ---
 
-## 🔧 4. Funciones
+##  4. Funciones
 Bloques reutilizables de código que pueden recibir parámetros y devolver valores.
 
-### 📦 Ejemplo:
+###  Ejemplo:
 ```php
 function saludar($nombre = "invitado") {
   return "Hola, $nombre";
@@ -120,17 +120,17 @@ $fn = function() {
   return "Hola";
 };
 ```
-### 📝 Características:
+###  Características:
   -Valores por defecto
   -Scope (`global`,`static`)
   -Funciones anónima
 
-### 📚 Documentación:
+###  Documentación:
   - [Funciones PHP (inglés)](https://www.php.net/manual/en/functions.user-defined.php)
 
 ---
 
-## 📦 5. Arrays
+##  5. Arrays
 Estructuras que permiten almacenar múltiples valores.
 
 ```php
@@ -138,17 +138,17 @@ $frutas = ["manzana", "pera", "uva"];
 echo $frutas[1]; // pera
 ```
 
-### 🛠️ Funciones útiles:
+###  Funciones útiles:
 
   - Arrays indexados y asociativos
   - Funciones: `array_map()`, `array_filter()`, `count()`, `array_push()`
 
-### 📚 Referencia:
+###  Referencia:
   - [Trabajar con arrays (español)](https://www.php.net/manual/es/language.types.array.php)
 
 ---
 
-## 📨 6. Formularios y métodos HTTP
+##  6. Formularios y métodos HTTP
 
 PHP permite procesar datos de formularios mediante las superglobales.
 
@@ -162,37 +162,37 @@ PHP permite procesar datos de formularios mediante las superglobales.
 $nombre = $_POST["nombre"] ?? "Desconocido";
 ```
 
-### 📎 Superglobales
+###  Superglobales
   - `$_GET`, `$_POST`, `$_REQUEST`
   - Validación básica
 
-### 📚 Info:
+###  Info:
 
   - [Formularios en PHP (español)](https://www.php.net/manual/es/tutorial.forms.php)
 
 ---
 
-## 🔐 7. Superglobales y sesiones
+##  7. Superglobales y sesiones
 
 Acceso global a datos del servidor, cliente y sesión.
 
-### 🔐 Ejemplo:
+###  Ejemplo:
 ```php
 session_start();
 $_SESSION['usuario'] = "mauricio";
 ```
-### 📋 Otras superglobales:
+###  Otras superglobales:
   - Variables: `$_SESSION`, `$_COOKIE`, `$_SERVER`, `$_FILES`, `$_ENV`
 
-### 📚 Documentación:
+###  Documentación:
   - [Superglobales (español)](https://www.php.net/manual/es/language.variables.superglobals.php)
 
 ---
 
-## 🧱 8. POO (Programación Orientada a Objetos)
+##  8. POO (Programación Orientada a Objetos)
 Facilita la creación de estructuras reutilizables y escalables.
 
-### 🏗️ Ejemplo:
+###  Ejemplo:
 ```php
 class Persona {
   public $nombre;
@@ -201,30 +201,30 @@ class Persona {
   }
 }
 ```
-### 🔑 Conceptos clave:
+###  Conceptos clave:
   - Clases, objetos, herencia, interfaces, traits. 
   - Encapsulamiento(`public`, `private`, `protected`)
 
-### 📚 Recursos:
+###  Recursos:
   - [POO en PHP (español)](https://www.php.net/manual/es/language.oop5.php)
 
 ---
 
-## 📂 9. Archivos y rutas
+##  9. Archivos y rutas
 PHP ofrece funciones nativas para trabajar con archivos.
 ```php
 file_put_contents("log.txt", "Registro");
 $content = file_get_contents("log.txt");
 ```
-### 🧰 Funciones útiles:
+###  Funciones útiles:
   - `fopen()`, `fwrite()`, `file_exists()`, `unlink()`
 
-### 📚 Más info
+###  Más info
   - [Manejo de archivos (español)](https://www.php.net/manual/es/book.filesystem.php)
 
 ---
 
-## 📃 10. Bases de datos MySQL
+##  10. Bases de datos MySQL
 PHP puede conectarse a bases de datos usando extensiones como `mysqli` o `PDO`.
 ### mysqli:
 ```php
@@ -235,16 +235,16 @@ $conn = new mysqli("localhost", "root", "", "mi_bd");
 ```php
 $db = new PDO("mysql:host=localhost;dbname=mi_bd", "root", "");
 ```
-### 🔐 Consultas seguras:
+###  Consultas seguras:
   - Consultas preparadas, `fetch()`, `bindParam()`
 
-### 📚 Documentación:
+###  Documentación:
   - [MySQLi (español)](https://www.php.net/manual/es/book.mysqli.php) 
   - [PDO (español)](https://www.php.net/manual/es/book.pdo.php)
 
 ---
 
-## 🧯 11. Errores y excepciones
+##  11. Errores y excepciones
 Gestiona errores y excepciones de forma controlada.
 ```php
 try {
@@ -253,28 +253,28 @@ try {
   echo $e->getMessage();
 }
 ```
-### 📌 Tipos de errores:
+###  Tipos de errores:
   - `E_ERROR`, `E_WARNING`, `E_NOTICE`
 
-### 📚 Info:
+###  Info:
   - [Manejo de errores PHP (español)](https://www.php.net/manual/es/ref.errorfunc.php)
 
 ---
 
-## 🧼 12. Buenas prácticas
+##  12. Buenas prácticas
 Escribe código mantenible y escalable.
-### ✨ Recomendaciones:
+###  Recomendaciones:
   - Nombres descriptivos
   - Separar lógica y presentación (MVC)
   - Validar todos los inputs
   - No repetir código (DRY)
-### 📚 Más:
+###  Más:
   - [PHP: The Right Way](https://phptherightway.com/) 
   - [Guías de estilo PSR (PHP-FIG)](https://www.php-fig.org/psr/)
 
 ---
 
-## 🌟 13. PHP moderno: Composer y Autoloading
+##  13. PHP moderno: Composer y Autoloading
 
 ```bash
 composer init
@@ -287,51 +287,51 @@ function sumar(int $a, int $b): int {
   return $a + $b;
 }
 ```
-### 🧩 Uso de Composer:
+###  Uso de Composer:
 ```bash
 composer init
 composer require monolog/monolog
 }
 ```
-### 📁 Autoload PSR-4:
+###  Autoload PSR-4:
   - PSR-4 Autoload, Namespaces, Composer.json
 
-### 📚 Recursos:
+###  Recursos:
   - [Composer Docs (inglés)](https://getcomposer.org/doc/) 
   - [PSR-4](https://www.php-fig.org/psr/psr-4/)
   - [PHP-Moderno](https://desarrolloweb.com/manuales/manual-php.html)
 ---
 
-## 🔒 14. Seguridad básica en PHP
+##  14. Seguridad básica en PHP
 
 Protege tus aplicaciones contra amenazas comunes.
 
-### 🔐 Prácticas recomendadas:
+###  Prácticas recomendadas:
   - `htmlspecialchars()` o `filter_input()` para sanitizar entradas
   - `password_hash()` y `password_verify()` para contraseñas
   - Proteger sesiones: usar `session_regenerate_id()`
   - Validación estricta y control de sesiones
 
-### 📚 Guías:
+###  Guías:
   - [OWASP PHP Security Project](https://owasp.org/www-project-secure-php-development/) 
   - [Seguridad en PHP (español)](https://www.php.net/manual/es/security.php)
 
 ---
 
-## 🚀 15. Frameworks – Laravel (Intro)
+##  15. Frameworks – Laravel (Intro)
 
 ```bash
 composer create-project laravel/laravel nombre-proyecto
 ```
-### 📁 Conceptos básicos:
+###  Conceptos básicos:
   - Rutas (`web.php`), controladores, Blade, migraciones, Eloquent ORM
 
-### 📚 Documentación:
+###  Documentación:
   - [Documentación Laravel (español)](https://laravel.com/docs/11.x)
 
 ---
 
-## 🌐 16. Recursos útiles
+##  16. Recursos útiles
 
   - [PHP.net](https://www.php.net/)
   - [Manual en español](https://www.php.net/manual/es/)
@@ -341,7 +341,7 @@ composer create-project laravel/laravel nombre-proyecto
 
 ---
 
-## 🔹 Bonus Hacks 🎁
+## 🔹 Bonus Hacks 
 
 ```php
 var_dump(); // Debug detallado
@@ -356,4 +356,3 @@ $_SERVER['REQUEST_URI']; // Ruta actual
 
 ---
 
-> Hecho para ti por un desarrollador que ama el código limpio, escalable y profesional ❤️
